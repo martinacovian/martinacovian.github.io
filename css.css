@@ -11,8 +11,7 @@ body{
 }
 
 .header{
-	background-color: rgba(255, 255, 255, 0.5);
-	background-image: url('../images/viaje.jpg');
+	background-image: url('viaje.jpg');
 	background-size: cover;
 	background-position: center;
 	text-align: center;
