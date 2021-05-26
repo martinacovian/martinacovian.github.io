@@ -1,0 +1,149 @@
+body{
+	font-family: amatic;
+	color:black;
+	font-size: 30px;
+	margin:0;
+}
+
+.container{
+	width:900px;
+	margin: 60px auto;
+}
+
+.header{
+	background-color: rgba(255, 255, 255, 0.5);
+	background-image: url('../images/viaje.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 200px 0px;
+
+}
+
+
+
+.btn{
+	background-color: #EFE2DF;
+	padding: 16px 48px;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;
+	color:black;
+	transition: 2.5s;
+	
+	font-weight: bold;
+}
+
+.btn:hover{
+	background-color: #CBBFBC;
+	color:black;
+	
+
+}
+
+h3{
+	color: white;
+}
+
+p{
+	color: white;
+	font-size: 25px;
+}
+
+.organizamos{
+	font-size: 1.2em;
+	display:block;
+
+}
+
+
+.pais{
+	padding: 50px;
+	margin:8px;
+	width: 350px;
+}
+
+.pais img{
+	width: 340px;
+	height: auto;
+	border-radius: 10px;
+	transition: 2s;
+}
+
+.pais img:hover{
+	transform: scale(1.07);
+
+}
+.explora{
+	text-align: center;
+}
+
+.paises{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:0px;
+}
+
+.paises{
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer{
+	background-color: grey;
+	color:white;
+	padding: 50px 0px;
+	text-align: center;
+
+}
+
+.pais{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.texto-encima{
+	position: absolute;
+	top:50%;
+	left:24%;
+	transform: translate(-50% -50%);
+}
+
+.texto-2{
+	position: absolute;
+	top: 65%;
+	left: 25%;
+	transform: translate(-50% -50%);
+}
+
+#egipto{
+	height: 230px;
+}
+
+@media (min-width: 300px){
+	.container{
+		width: 400px;
+	}
+    .paises{
+    	grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 700px){
+	.container{
+		width: 600px;
+	}
+    .paises{
+    	grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+	.container{
+		width: 900px;
+	}
+    .paises{
+    	grid-template-columns: 1fr 1fr 1fr;
+    }
+}
